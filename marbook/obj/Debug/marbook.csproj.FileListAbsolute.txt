@@ -1,0 +1,17 @@
+C:\Users\Liseth Ortiz\source\repos\marbook\bin\Debug\marbook.exe.config
+C:\Users\Liseth Ortiz\source\repos\marbook\bin\Debug\marbook.exe
+C:\Users\Liseth Ortiz\source\repos\marbook\bin\Debug\marbook.pdb
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.csproj.AssemblyReference.cache
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.csproj.SuggestedBindingRedirects.cache
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.Properties.Resources.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.csproj.GenerateResource.cache
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.csproj.CoreCompileInputs.cache
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.exe
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.pdb
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.menu.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.frm_R_usuario.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.frm_login.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.frm_Registro_Libro.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.frm_Reportes.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.Prestamos.resources
+C:\Users\Liseth Ortiz\source\repos\marbook\obj\Debug\marbook.nuevo_Usuario.resources

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0BFFC38F-F59E-40C4-99B7-FB6D15B7281B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>marbook</RootNamespace>
+    <AssemblyName>marbook</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Registro_Libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Registro_Libro.Designer.cs">
+      <DependentUpon>frm_Registro_Libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Reportes.Designer.cs">
+      <DependentUpon>frm_Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_R_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_R_usuario.Designer.cs">
+      <DependentUpon>frm_R_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevo_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevo_Usuario.Designer.cs">
+      <DependentUpon>nuevo_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prestamos.Designer.cs">
+      <DependentUpon>Prestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Registro_Libro.resx">
+      <DependentUpon>frm_Registro_Libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Reportes.resx">
+      <DependentUpon>frm_Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_R_usuario.resx">
+      <DependentUpon>frm_R_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevo_Usuario.resx">
+      <DependentUpon>nuevo_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prestamos.resx">
+      <DependentUpon>Prestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro-biblioteca-libro-texto-abierto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\libro-digital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\humano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\fondo-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\libro-electronico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\biblioteca-en-linea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\prestamo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\libros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ENTIDADES\ENTIDADES.csproj">
+      <Project>{64808fa6-4462-43fa-9e1d-2bf378f1afd5}</Project>
+      <Name>ENTIDADES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LOGICA\LOGICA.csproj">
+      <Project>{92ee90b2-7ad5-4165-b431-d799b3a2678f}</Project>
+      <Name>LOGICA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
